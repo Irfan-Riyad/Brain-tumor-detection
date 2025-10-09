@@ -1,0 +1,135 @@
+# ==============================================================================
+# DEEP LEARNING FRAMEWORKS
+# ==============================================================================
+# PyTorch (Primary framework based on your code)
+torch>=1.12.0,<2.0.0
+torchvision>=0.13.0,<0.16.0
+torchaudio>=0.12.0
+
+# TensorFlow (For reproducibility seeding)
+tensorflow>=2.8.0,<2.13.0
+
+# ==============================================================================
+# DATA MANIPULATION AND NUMERICAL COMPUTING
+# ==============================================================================
+numpy>=1.21.0,<1.25.0
+pandas>=1.3.0,<2.0.0
+scipy>=1.7.0,<1.11.0
+
+# ==============================================================================
+# IMAGE PROCESSING AND COMPUTER VISION
+# ==============================================================================
+opencv-python>=4.5.0
+Pillow>=8.0.0,<10.0.0
+imageio>=2.9.0
+
+# ==============================================================================
+# VISUALIZATION AND PLOTTING
+# ==============================================================================
+matplotlib>=3.3.0,<3.8.0
+seaborn>=0.11.0,<0.13.0
+plotly>=5.0.0
+
+# ==============================================================================
+# MACHINE LEARNING AND EVALUATION METRICS
+# ==============================================================================
+scikit-learn>=0.24.0,<1.4.0
+
+# ==============================================================================
+# KAGGLE INTEGRATION AND DATA ACCESS
+# ==============================================================================
+kagglehub>=0.1.0
+kaggle>=1.5.12
+
+# ==============================================================================
+# JUPYTER NOTEBOOK ENVIRONMENT
+# ==============================================================================
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+notebook>=6.4.0
+
+# ==============================================================================
+# PROGRESS TRACKING AND MONITORING
+# ==============================================================================
+tqdm>=4.62.0
+psutil>=5.8.0
+
+# ==============================================================================
+# MODEL PERSISTENCE AND I/O
+# ==============================================================================
+h5py>=3.1.0
+
+# ==============================================================================
+# GRAD-CAM AND MODEL INTERPRETABILITY
+# ==============================================================================
+# All dependencies for Grad-CAM are covered by PyTorch and visualization packages above
+
+# ==============================================================================
+# ADVANCED DATA AUGMENTATION (OPTIONAL BUT RECOMMENDED)
+# ==============================================================================
+albumentations>=1.0.0,<1.4.0
+
+# ==============================================================================
+# ADDITIONAL MODEL INTERPRETABILITY TOOLS (OPTIONAL)
+# ==============================================================================
+lime>=0.2.0
+shap>=0.40.0
+
+# ==============================================================================
+# DEVELOPMENT AND CODE QUALITY (OPTIONAL)
+# ==============================================================================
+# pytest>=6.0.0
+# flake8>=3.9.0
+# black>=21.0.0
+
+# ==============================================================================
+# INSTALLATION NOTES FOR DIFFERENT ENVIRONMENTS
+# ==============================================================================
+
+# FOR GOOGLE COLAB:
+# Most packages are pre-installed. Install additional ones with:
+# !pip install kagglehub albumentations lime shap
+
+# FOR KAGGLE NOTEBOOKS:  
+# Most packages are pre-installed. Install additional ones with:
+# !pip install kagglehub albumentations lime shap
+
+# FOR LOCAL DEVELOPMENT:
+# Create virtual environment and install all:
+# python -m venv brain_tumor_env
+# source brain_tumor_env/bin/activate  # Linux/Mac
+# brain_tumor_env\Scripts\activate     # Windows  
+# pip install -r requirements.txt
+
+# FOR UNIVERSITY GPU SERVERS:
+# module load python/3.8 cuda/11.2
+# pip install --user -r requirements.txt
+
+# ==============================================================================
+# PYTORCH SPECIFIC NOTES
+# ==============================================================================
+# PyTorch installation varies by CUDA version:
+# 
+# For CUDA 11.7:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+#
+# For CUDA 11.8: 
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# For CPU only:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+#
+# Google Colab and Kaggle typically have PyTorch pre-installed with CUDA support
+
+# ==============================================================================
+# MEMORY REQUIREMENTS
+# ==============================================================================
+# Minimum System Requirements:
+# - RAM: 8GB (16GB recommended for large datasets)
+# - GPU: 4GB VRAM minimum (8GB+ recommended)
+# - Storage: 5GB free space for datasets and models
+#
+# Recommended for optimal performance:
+# - RAM: 16GB+
+# - GPU: NVIDIA Tesla T4, V100, A100, or RTX 3060+
+# - Storage: 20GB+ SSD space

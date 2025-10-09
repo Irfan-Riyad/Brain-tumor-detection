@@ -1,0 +1,307 @@
+# ==============================================================================
+# PYTHON CORE
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+brain_tumor_env/
+
+# ==============================================================================
+# JUPYTER AND IPYTHON
+# ==============================================================================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Jupyter outputs (uncomment if you want to ignore all outputs)
+# *.ipynb
+
+# ==============================================================================
+# DATA DIRECTORIES AND FILES
+# ==============================================================================
+# Your specific data structure
+data/
+data/processed/
+data/raw/
+
+# Common data formats
+*.csv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.tsv
+
+# Image datasets (but keep small sample images for README if needed)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+# Exception: keep small images in docs/
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+
+# Medical imaging formats
+*.dcm
+*.nii
+*.nii.gz
+
+# ==============================================================================
+# PYTORCH MODELS AND TRAINING
+# ==============================================================================
+# Your models directory
+models/
+saved_models/
+checkpoints/
+
+# PyTorch model files
+*.pth
+*.pt
+*.ckpt
+*.pth.tar
+*.weights
+
+# TorchVision cache
+~/.cache/torch/
+
+# ==============================================================================
+# TENSORFLOW FILES
+# ==============================================================================
+*.pb
+*.h5
+*.hdf5
+*.tfrecord
+*.tfevents.*
+
+# TensorFlow logs
+logs/
+tensorboard_logs/
+tb_logs/
+
+# ==============================================================================
+# EXPERIMENT TRACKING AND RESULTS
+# ==============================================================================
+# Your results directory
+results/
+outputs/
+experiments/
+
+# Your plots directory
+plots/
+figures/
+visualizations/
+
+# ML experiment tracking
+mlruns/
+mlartifacts/
+wandb/
+.neptune/
+
+# Training logs
+training_logs/
+*.log
+
+# ==============================================================================
+# KAGGLE SPECIFIC
+# ==============================================================================
+# Kaggle credentials and cache
+~/.kaggle/
+.kaggle/
+kaggle.json
+
+# Kaggle datasets download cache
+kagglehub_cache/
+
+# ==============================================================================
+# SCIENTIFIC COMPUTING CACHE
+# ==============================================================================
+# Matplotlib cache
+~/.matplotlib/
+
+# Seaborn cache
+~/.cache/seaborn-data/
+
+# Scikit-learn cache
+~/.cache/scikit-learn/
+
+# OpenCV cache
+~/.opencv/
+
+# ==============================================================================
+# DEVELOPMENT TOOLS
+# ==============================================================================
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==============================================================================
+# OPERATING SYSTEM
+# ==============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ==============================================================================
+# TEMPORARY AND CACHE FILES
+# ==============================================================================
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+cache/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# ==============================================================================
+# LARGE FILES AND ARCHIVES
+# ==============================================================================
+# Compressed files (datasets are usually large)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Large binary files
+*.bin
+*.dat
+*.sqlite
+*.db
+
+# ==============================================================================
+# PYTHON PACKAGE MANAGEMENT
+# ==============================================================================
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# conda
+.conda/
+conda-meta/
+
+# ==============================================================================
+# PROJECT SPECIFIC EXCLUSIONS
+# ==============================================================================
+# Config files with sensitive info (uncomment if you create these)
+# config.py
+# secrets.py
+# .env.local
+# .env.production
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# ==============================================================================
+# EXCEPTIONS (FILES TO KEEP)
+# ==============================================================================
+# Keep these important files
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore
+
+# Keep small documentation images
+!docs/images/*.png
+!docs/images/*.jpg
+!assets/*.png
+!assets/*.jpg
+
+# Keep configuration templates
+!config.template.py
+!.env.example

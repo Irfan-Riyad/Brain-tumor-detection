@@ -1,0 +1,50 @@
+                        precision    recall  f1-score   support
+
+        Astrocitoma T1       1.00      0.95      0.97        55
+      Astrocitoma T1C+       0.98      0.87      0.92        55
+        Astrocitoma T2       0.96      0.93      0.94        55
+          Carcinoma T1       1.00      0.98      0.99        55
+        Carcinoma T1C+       0.98      1.00      0.99        55
+          Carcinoma T2       1.00      0.95      0.97        56
+         Ependimoma T1       0.98      1.00      0.99        55
+       Ependimoma T1C+       1.00      0.98      0.99        56
+         Ependimoma T2       0.96      1.00      0.98        55
+      Ganglioglioma T1       1.00      1.00      1.00        55
+    Ganglioglioma T1C+       0.97      1.00      0.98        56
+      Ganglioglioma T2       0.98      0.96      0.97        55
+          Germinoma T1       0.96      1.00      0.98        55
+        Germinoma T1C+       1.00      1.00      1.00        56
+          Germinoma T2       1.00      1.00      1.00        56
+       Glioblastoma T1       1.00      0.98      0.99        55
+     Glioblastoma T1C+       0.96      1.00      0.98        55
+       Glioblastoma T2       1.00      1.00      1.00        56
+          Granuloma T1       0.98      1.00      0.99        56
+        Granuloma T1C+       0.98      1.00      0.99        56
+          Granuloma T2       0.97      1.00      0.98        56
+     Meduloblastoma T1       0.98      1.00      0.99        55
+   Meduloblastoma T1C+       1.00      0.98      0.99        56
+     Meduloblastoma T2       0.95      1.00      0.97        55
+         Meningioma T1       0.98      0.95      0.96        55
+       Meningioma T1C+       0.96      0.98      0.97        55
+         Meningioma T2       0.91      0.89      0.90        56
+        Neurocitoma T1       1.00      0.96      0.98        55
+      Neurocitoma T1C+       0.98      0.98      0.98        55
+        Neurocitoma T2       0.96      0.95      0.95        55
+  Oligodendroglioma T1       0.98      1.00      0.99        56
+Oligodendroglioma T1C+       0.98      1.00      0.99        55
+  Oligodendroglioma T2       1.00      1.00      1.00        55
+           Papiloma T1       0.96      1.00      0.98        55
+         Papiloma T1C+       0.96      1.00      0.98        55
+           Papiloma T2       0.93      1.00      0.96        55
+         Schwannoma T1       0.95      0.96      0.95        55
+       Schwannoma T1C+       0.95      0.95      0.95        55
+         Schwannoma T2       0.96      0.91      0.93        55
+        Tuberculoma T1       1.00      0.98      0.99        56
+      Tuberculoma T1C+       0.98      0.95      0.96        55
+        Tuberculoma T2       0.98      1.00      0.99        56
+            _NORMAL T1       1.00      0.98      0.99        55
+            _NORMAL T2       0.98      1.00      0.99        56
+
+              accuracy                           0.98      2435
+             macro avg       0.98      0.98      0.98      2435
+          weighted avg       0.98      0.98      0.98      2435

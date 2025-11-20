@@ -169,11 +169,5 @@ This project implements and compares multiple deep learning architectures for Br
 We express our gratitude to the following individual for their guidance and support:
 - Dr. Raihan Ul Islam: Provided project supervision and technical guidance on machine learning methodologies.
 
-## Contributors
-All group members contributed equally:
-- Shafayat Hasnat Rubaiyat: CNN architecture, Transfer learning      experiments
-- MD Riyad Hossain: Hyperparameter tuning, Data preprocessing 
-- M. Nura Alam Naim: final integration, evaluation, visualization
-- Mehejarin Aklima Jerin: Baseline model, Documentation
 
 

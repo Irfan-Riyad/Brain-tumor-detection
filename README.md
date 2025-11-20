@@ -1,13 +1,5 @@
 # AI Brain Tumor Classification Project
 
-## Group Information
-- **Group Number:** 3
-- **Group Members:** 
-  - Shafayat Hasnat Rubaiyat (ID: 2022-3-60-029)
-  - MD Riyad Hossain (ID: 2022-3-60-156)
-  - M. Nura Alam Naim (ID: 2022-3-60-123)
-  - Mehejarin Aklima Jerin (ID: 2022-3-60-325)
-
 ## Project Overview
 This project implements and compares multiple deep learning architectures for Brain Tumor classification. The goal is to accurately classify different types of brain tumors using computer vision techniques, comparing traditional CNN architectures with modern transfer learning approaches and hybrid models.
 
